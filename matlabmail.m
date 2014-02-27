@@ -4,7 +4,7 @@ function recipient = matlabmail(recipient, message, subject, sender, psswd)
 % MATLABMAIL( recipient, message, subject )
 %
 %   sends the character string stored in 'message' with subjectline 'subject'
-%   to the address in 'recipient', from the email address 'sender'.
+%   to the address in 'recipient'.
 %   This requires that the sending address is a GMAIL email account.
 %
 % MATLABMAIL( recipient, message, subject, sender, passwd ) 
