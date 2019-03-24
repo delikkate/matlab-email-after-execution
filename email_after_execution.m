@@ -21,6 +21,10 @@ function email_after_execution(myfunc, recipient, sender, sender_psswd)
 % example:
 % email_after_execution(@my_test_function, 'recipient_address@gmail.com', 'sender_address@gmail.com', 'very$ecurePa$$word')
 
+% Add subdirectories to path
+addpath('matlabmail');
+addpath('FEX-seconds2human');
+
 try
     tstart = tic; % start the timer    
     myfunc(); % try to execute the function
