@@ -6,4 +6,4 @@ The function reuses two bits of code found on GitHub:
 1) [matlabmail.m](https://gist.github.com/dgleich/9243281) -- gist published by David Gleich
 2) [seconds2human.m](https://github.com/rodyo/FEX-seconds2human) -- repo by Rody Oldenhuis
 
-You might need to switch off the two-step verification in order to make matlabmail work. Check out [the developer's blog](https://dgleich.wordpress.com/2014/02/27/get-matlab-to-email-you-when-its-done-running/) for details.
+You might need to switch off the two-step verification in order to make `matlabmail` work. Check out [the developer's blog](https://dgleich.wordpress.com/2014/02/27/get-matlab-to-email-you-when-its-done-running/) for details.
