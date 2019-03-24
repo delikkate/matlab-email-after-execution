@@ -95,12 +95,12 @@ function out = seconds2human(secs, varargin)
         % initialize nested loop
         secsj   = secs(j);
         counter = 0;
-        if short, string = 'About ';
+        if short, string = 'about ';
         else      string = '';
         end
 
         % possibly quick exit
-        if (secsj < 1), string = 'Less than one second.'; end
+        if (secsj < 1), string = 'less than one second '; end
 
         % build string for j-th amount of seconds
         for i = 1:length(units)
@@ -129,7 +129,7 @@ function out = seconds2human(secs, varargin)
                     if short, ending = ' and ';
                     else ending = ', ';
                     end
-                else ending = '.';
+                else ending = ' ';
                 end
                 string = [string, ending];%#ok
 
